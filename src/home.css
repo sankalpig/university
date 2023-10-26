@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navBar {
+  background-color: transparent;
+}
+
+.carousel-caption {
+  padding-bottom: 1rem;
+}
+.red {
+  color: #fd4a36;
+}
+.grey {
+  color: #a5a6aa;
+}
