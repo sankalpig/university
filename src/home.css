@@ -16,3 +16,57 @@
 .grey {
   color: #a5a6aa;
 }
+.dark {
+  background: #292b2c;
+}
+.back-white {
+  background-color: #f8f8f8;
+  height: 36rem;
+}
+.back-partner {
+  background: var(--dark, #292b2c);
+  border-top: 4px solid #fd4a36;
+  border-bottom: 4px solid #fd4a36;
+}
+.dark-gray {
+  color: #8a8a8a;
+}
+.profile-img {
+}
+.eclipse-fill {
+  background: rgba(255, 116, 38, 0.1);
+}
+.box {
+  padding: 1rem 2rem;
+  padding-left: 3rem;
+  display: flex;
+  /* border: 2px solid black; */
+  position: relative;
+  z-index: 1;
+  /* margin: 10px -150px; */
+  margin-left: -23rem;
+  justify-content: center;
+  align-items: center;
+  width: 23rem;
+  height: 14rem;
+  top: 418px;
+  background: #1f242e;
+}
+.dark-blue {
+  color: #1f242e;
+}
+.circle {
+  background: url("./Images/left-top.png") no-repeat;
+}
+.circle2 {
+  background: url("./Images/rigth-end.png") no-repeat;
+  position: relative;
+  z-index: -1;
+}
+.background-effect {
+  background: linear-gradient(
+    271deg,
+    #fff 0.71%,
+    rgba(217, 217, 217, 0) 76.09%
+  );
+}
