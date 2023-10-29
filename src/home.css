@@ -58,10 +58,17 @@
 .circle {
   background: url("./Images/left-top.png") no-repeat;
 }
-.circle2 {
+.rcircle::after {
+  content: "";
+  position: absolute;
   background: url("./Images/rigth-end.png") no-repeat;
-  position: relative;
-  z-index: -1;
+  width: 28%;
+    margin-top: 70%;
+    height: 142%;
+    /* top: 0%; */
+    left: 65%;
+    z-index: -1;
+
 }
 .background-effect {
   background: linear-gradient(
@@ -69,4 +76,24 @@
     #fff 0.71%,
     rgba(217, 217, 217, 0) 76.09%
   );
+}
+.back-lego{
+    background:url("./Images/lego.png") no-repeat
+  }
+  .slick-slider{
+    /* margin: 0rem 5rem; */
+    /* overflow: hidden; */
+    width: 82%;
+    margin-left: 8rem;
+    /* padding-left: 10rem; */
+  }
+  .slick-slide>div{
+    margin: 0px 5rem;
+
+  }
+.glow:hover{
+  transform: scale(1.2);
+  box-shadow: 0 0 15px #fd4a36;
+  /* filter: blur(3px); */
+  text-shadow: 0 0 15px #fd4a36;
 }

@@ -9,10 +9,10 @@ export default function Partner() {
         <div className='back-partner mt-80 px-56'>
             <h1 className='text-white py-10 text-4xl font-semibold text-center'>Our Partners</h1>
             <div className='flex justify-around pb-10'>
-                <img className='w-32' src={img1} />
-                <img className='w-32' src={img2} />
-                <img className='w-32' src={img3} />
-                <img className='w-32' src={img4} />
+                <img className='w-32 glow hover:rounded-lg' src={img1} />
+                <img className='w-32 glow hover:rounded-lg' src={img2} />
+                <img className='w-32 glow hover:rounded-lg' src={img3} />
+                <img className='w-32 glow hover:rounded-lg' src={img4} />
             </div>
         </div>
     )
