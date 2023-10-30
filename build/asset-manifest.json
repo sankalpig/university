@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2fd65c8b.css",
+    "main.js": "/static/js/main.44886d82.js",
+    "static/js/787.c0cfd400.chunk.js": "/static/js/787.c0cfd400.chunk.js",
+    "static/media/back.png": "/static/media/back.c1aacee9268e2be848ed.png",
+    "static/media/about1.png": "/static/media/about1.f4cc71ae5309296101fd.png",
+    "static/media/p2.png": "/static/media/p2.fd6091154f08f1d66e97.png",
+    "static/media/p1.png": "/static/media/p1.350456b05aa3f7948322.png",
+    "static/media/card-1.png": "/static/media/card-1.4986a78f52c222a9ce64.png",
+    "static/media/card-3.png": "/static/media/card-3.4571435f35bd6e04e272.png",
+    "static/media/image.png": "/static/media/image.e401b29a0abfe7a64cc3.png",
+    "static/media/card-2.png": "/static/media/card-2.faf1d939ce1ed92a43ae.png",
+    "static/media/pic1.png": "/static/media/pic1.4ba2ee1a795331fadfb6.png",
+    "static/media/left-top.png": "/static/media/left-top.574d2a800b12d3e85336.png",
+    "static/media/lego.png": "/static/media/lego.1c6d85e46bd21f8bf9de.png",
+    "static/media/rigth-end.png": "/static/media/rigth-end.6580ef6c4793906c55ba.png",
+    "static/media/p3.png": "/static/media/p3.6d75e9d6b1c37218e111.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/p4.png": "/static/media/p4.a12a226ca54153bd01d9.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/time-svgrepo-com 1.svg": "/static/media/time-svgrepo-com 1.ba5c9ca483d4ac8e2c3ab0d38fe8e678.svg",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/download-svgrepo-com 1.svg": "/static/media/download-svgrepo-com 1.87374237c6a2ee4ab8130bae03433864.svg",
+    "index.html": "/index.html",
+    "static/media/video-svgrepo-com 1.svg": "/static/media/video-svgrepo-com 1.8cb0f757c6174f43bf72e12e38081ca0.svg",
+    "main.2fd65c8b.css.map": "/static/css/main.2fd65c8b.css.map",
+    "main.44886d82.js.map": "/static/js/main.44886d82.js.map",
+    "787.c0cfd400.chunk.js.map": "/static/js/787.c0cfd400.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fd65c8b.css",
+    "static/js/main.44886d82.js"
+  ]
+}
