@@ -6,7 +6,7 @@ import img4 from '../Images/p4.png'
 
 export default function Partner() {
     return (
-        <div className='back-partner mt-80 px-56'>
+        <div className='back-partner -mt-96 md:mt-80 md:px-56'>
             <h1 className='text-white py-10 text-4xl font-semibold text-center'>Our Partners</h1>
             <div className='flex justify-around pb-10'>
                 <img className='w-32 glow hover:rounded-lg' src={img1} />

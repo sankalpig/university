@@ -24,6 +24,8 @@
   height: 36rem;
 }
 .back-partner {
+  display: block;
+  position: relative;
   background: var(--dark, #292b2c);
   border-top: 4px solid #fd4a36;
   border-bottom: 4px solid #fd4a36;
@@ -55,15 +57,21 @@
 .dark-blue {
   color: #1f242e;
 }
-.circle {
+.circle::after {
+  content: "";
+  position: absolute;
   background: url("./Images/left-top.png") no-repeat;
+  width: 26%;
+  margin-top: 55%;
+  height: 142%;
+  z-index: -1;
 }
-.rcircle::after {
+.rcircle::before {
   content: "";
   position: absolute;
   background: url("./Images/rigth-end.png") no-repeat;
   width: 28%;
-  margin-top: 70%;
+  margin-top: 110%;
   height: 142%;
   /* top: 0%; */
   left: 65%;
@@ -107,4 +115,19 @@
 }
 .card-glow:hover {
   box-shadow: 0 0 15px #fd4a36;
+}
+.swiper-slide {
+  padding: 4rem 6rem;
+  margin: 0 -1rem;
+}
+.swiperbutton {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  margin: -19rem 0rem;
+  /* background: black; */
+  /* background-color: black; */
+}
+.swiper-wrapper {
+  margin: 0rem 2rem;
 }

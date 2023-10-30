@@ -1,8 +1,12 @@
 import React from 'react'
 import img1 from '../Images/pic1.png'
-import "../../node_modules/slick-carousel/slick/slick.css"
-import "../../node_modules/slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import '../../node_modules/swiper/swiper.min.css'
+import '../../node_modules/swiper/swiper-bundle.css'
+import '../../node_modules/swiper/swiper.css'
+import SlideNavigateButtons from './SlideNavigateButtons'
 
 export default function Story() {
     const data = [
@@ -10,24 +14,46 @@ export default function Story() {
         { imgUrl: img1 },
         { imgUrl: img1 },
         { imgUrl: img1 },
+        { imgUrl: img1 },
     ]
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 2,
+    const pagination = {
+        clickable: true,
     };
     return (
+
         <div className='eclipse-fill'>
             <div className='mt-20'>
                 <div className='text-center'>
                     <h1 className='text-3xl font-semibold'>What Our Student’s Say</h1>
                     <p className='mt-3 m-auto w-5/12 dark-gray font-semibold'>L'ITTIQ ne forme pas seulement des experts en technologie, mais également les futurs leaders de l'industrie technologique</p>
                 </div>
-                <div className='mx-9 flex'>
-                    <Slider {...settings}>
+            </div>
+            <div className=''>
+                <Swiper
+                    modules={[Navigation, Pagination, Scrollbar, A11y]}
+                    pagination={pagination}
+
+                    slidesPerView={3}
+                    spaceBetween={20}
+                    onSlideChange={() => console.log('slide change')}
+                    onSwiper={(swiper) => console.log(swiper)}
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 2,
+                            spaceBetween: 40,
+                        },
+                        1024: {
+                            slidesPerView: 3,
+                            spaceBetween: -40,
+                        },
+                    }}>
+                    <div className='mx-9 '>
                         {data.map(d => (
-                            <div className=''>
+                            <SwiperSlide>
                                 <div className=' my-14 '>
                                     <div className='pl-4 py-3 bg-white' style={{ width: "28rem" }}>
                                         <div className='mt-2'>
@@ -46,10 +72,11 @@ export default function Story() {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </SwiperSlide>
+
                         ))}
-                    </Slider>
-                </div>
+                    </div>
+                </Swiper>
             </div>
         </div>
     )
