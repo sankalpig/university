@@ -34,7 +34,7 @@ export default function Help() {
                 </div>
                 <Slider {...settings}>
                     {data.map(d => (
-                        <div className='flex  mt-16 w-12/12  hover:scale-110'>
+                        <div className='flex  mt-16 w-12/12  hover:scale-110 '>
                             <div className='shadow-md rounded-md mx-10 hover:mx-10 overflow-hidden mr-0' style={{ width: "22rem" }}>
                                 <div className=''>
                                     <img className='min-w-full' src={d.ImgUrl} />

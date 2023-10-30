@@ -63,12 +63,11 @@
   position: absolute;
   background: url("./Images/rigth-end.png") no-repeat;
   width: 28%;
-    margin-top: 70%;
-    height: 142%;
-    /* top: 0%; */
-    left: 65%;
-    z-index: -1;
-
+  margin-top: 70%;
+  height: 142%;
+  /* top: 0%; */
+  left: 65%;
+  z-index: -1;
 }
 .background-effect {
   background: linear-gradient(
@@ -77,23 +76,35 @@
     rgba(217, 217, 217, 0) 76.09%
   );
 }
-.back-lego{
-    background:url("./Images/lego.png") no-repeat
-  }
-  .slick-slider{
-    /* margin: 0rem 5rem; */
-    /* overflow: hidden; */
-    width: 82%;
-    margin-left: 8rem;
-    /* padding-left: 10rem; */
-  }
-  .slick-slide>div{
-    margin: 0px 5rem;
-
-  }
-.glow:hover{
+.back-lego {
+  background: url("./Images/lego.png") no-repeat;
+}
+.slick-slider {
+  /* margin: 0rem 5rem; */
+  /* overflow: hidden; */
+  width: 82%;
+  margin-left: 8rem;
+  /* padding-left: 10rem; */
+}
+.slick-slide > div {
+  margin: 0px 5rem;
+}
+.glow:hover {
   transform: scale(1.2);
   box-shadow: 0 0 15px #fd4a36;
   /* filter: blur(3px); */
   text-shadow: 0 0 15px #fd4a36;
+}
+.custom-nav {
+  position: absolute;
+  top: 1rem;
+  z-index: 3;
+  width: 72%;
+}
+.nav-glow :hover {
+  border-bottom: 2px solid #fd4a36;
+  width: 5rem;
+}
+.card-glow:hover {
+  box-shadow: 0 0 15px #fd4a36;
 }

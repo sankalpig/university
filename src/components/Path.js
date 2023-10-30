@@ -81,7 +81,7 @@ export default function Path() {
             </div>
             <Slider {...settings}>
                 {data.map(d =>
-                    <div className='mt-24'>
+                    <div className='mt-24 hover:scale-110 '>
                         <div className='shadow-lg bg-white rounded-lg' style={{ width: "21rem" }}>
                             <div className=''>
                                 <img className='min-w-full' src={d.ImgUrl} />

@@ -5,7 +5,7 @@ import call from '../Images/call.png'
 
 export default function Footer() {
     return (
-        <div className='pt-5' style={{ background: "#000" }}>
+        <div className='pt-5' id='footer' style={{ background: "#000" }}>
             <div className='flex justify-between px-44 '>
                 <div><img src={logo} alt='' /></div>
                 <div className='flex text-white' >
